@@ -2,6 +2,7 @@ import json
 import datetime
 import time
 
+# define validate function
 def validate(slots):
 
     valid_cities = ['mumbai','delhi','banglore','hyderabad']
@@ -44,6 +45,7 @@ def validate(slots):
 
     return {'isValid': True}
     
+# define the lambda_handler function
 def lambda_handler(event, context):
     
     # print(event)
